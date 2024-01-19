@@ -1,4 +1,4 @@
-const { MongoClient, ServerApiVersion } = require('mongodb');
+const { MongoClient, ServerApiVersion } = import('mongodb');
 
 const clusterAddress = process.env.MONGODB_CLUSTER_ADDRESS;
 const dbUser = process.env.MONGODB_USERNAME;

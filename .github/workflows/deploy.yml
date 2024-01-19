@@ -5,7 +5,7 @@ on:
       - main
       - dev
 env:
-  MONGODB_DB_NAME: test-db
+  MONGODB_DB_NAME: gha-env
 jobs:
   test:
     env:
